@@ -1,0 +1,41 @@
+table {
+  width: 500px;
+  height: 500px;
+  border-width: 3px;
+  margin: auto;
+}
+td {
+  padding: 3px;
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.col-red {
+  background-color: red;
+}
+
+.col-green {
+  background-color: green;
+}
+
+.col-blue {
+  background-color: blue;
+}
+
+.col-yellow {
+  background-color: yellow;
+}
+
+.box {
+  width: 0;
+  border-top: 50px solid green;
+  border-bottom: 50px solid blue;
+  border-right: 50px solid yellow;
+  border-left: 50px solid red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
